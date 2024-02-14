@@ -133,12 +133,12 @@ const MyPageReview = (props) => {
             {/* 하단 리뷰 폼 - 실제 동작용은 아님 */}
             <div className={styles.reviewForm} style={{minHeight: '220px'}}>
                 <div className={styles.reviewFormTop}>
-                    <h2 style={{color:'#222222'}}>모임 일자</h2>
-                    <h2 style={{color:'#444444'}}>2월 10일 토요일 오후 5시</h2>
+                    <h2>싱글 직장인 와인 파티</h2>
+                    <h3>20대 후반~30대 초반</h3>
                 </div>
                 <div className={styles.reviewFormTitle}>
-                    <h2>모임 일자</h2>
-                    <h2>2월 10일 토요일 오후 5시</h2>
+                    <h2 style={{color:'#222222'}}>모임 일자</h2>
+                    <h2 style={{color:'#444444'}}>2월 10일 토요일 오후 5시</h2>
                 </div>
                 <p>후기를 작성해주세요.<br/>
                 소정의 포인트가 지급됩니다.</p>
