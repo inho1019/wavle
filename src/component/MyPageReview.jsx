@@ -143,8 +143,8 @@ const MyPageReview = (props) => {
                 <p>후기를 작성해주세요.<br/>
                 소정의 포인트가 지급됩니다.</p>
                 <div className={styles.butContainer}>
-                    <button className={styles.butSubmit} onClick={onSubmit}>후기 수정</button>
-                    <button className={styles.butCancel} onClick={onReset}>후기 보기</button>
+                    <button className={styles.butSubmit}>후기 수정</button>
+                    <button className={styles.butCancel}>후기 보기</button>
                 </div>
             </div>
             {/* 더보기 */}
