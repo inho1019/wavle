@@ -1,0 +1,241 @@
+.container {
+    width: 780px;
+    margin: 0 auto;
+}
+.headerContainer{
+    height: 90px;
+}
+.headerContainer h1{
+    font-size: 28px;
+    font-weight: 700;
+    padding: 5px 0;
+    color: #222222;
+}
+/* myPageNav */
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+.navContainer div {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 5px 26px;
+    padding-left: 0;
+    margin-right: 36px;
+    color: #444444;
+}
+/* myPageReview */
+.reviewContainer {
+    padding: 30px 0;
+}
+.reviewForm {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 680px;
+    min-height: 470px;
+    margin: 35px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.reviewFormTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 20px;
+    background-color: #92A8D1;
+}
+.reviewFormTop h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reviewFormTop h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin: 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.reviewFormTitle {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px;
+}
+.reviewFormTitle h2{
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.reviewFormTextArea {
+    display: block;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 510px;
+    margin: 0 auto;
+    border: 1px #BBBBBB solid;
+    resize: none;
+}
+.reviewForm p {
+    font-size: 14px;
+    color: #222222;
+    margin: 0 20px;
+}
+.fileBox { 
+    display: flex;
+    width: 540px;
+    margin: 20px auto;
+    flex-direction: row;
+}
+.fileItem { 
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #BBBBBB;
+    border-radius: 5px;
+    margin-right: 20px;
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fileItemTxt p{
+    text-align: center;
+    margin: 0;
+    color:#666666;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.fileItemTxt div{ 
+    text-align: center;
+    color:#666666;
+    font-size: 24px;
+}
+.fileItem input{ 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+.fileImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.butContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.butContainer button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.butCancel {
+    background-color: #F9A7A7;
+}
+.butCancel:hover {
+    background-color: #f96060;
+}
+.butSubmit {
+    background-color: #8BAEEF;
+}
+.butSubmit:hover  {
+    background-color: #4a82eb;
+}
+.moreBut {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    background-color: #FDFDFD;
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    color: #222222;
+    font-size: 14px;
+    cursor: pointer;
+}
+/* 미디어 쿼리를 활용한 반응형 구현 */
+@media (max-width: 780px) {
+    .container {
+        width: 100%;
+    }
+    .reviewForm {
+        width: 95%;
+    }
+    .fileBox { 
+        justify-content: center;
+        width: 95%;
+    }
+    .fileItem { 
+        margin: 0 5px;
+    }
+    .headerContainer{
+        height: 90px;
+    }
+    .headerContainer h1{
+        text-align: center;
+        font-size: 28px;
+        font-weight: 700;
+        padding: 5px 0;
+    }
+    .navContainer {
+        flex-wrap: wrap;
+        overflow: hidden;
+        border-radius: 15px;
+        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+        width: 95%;
+        margin: 0 auto;
+    }
+    .navContainer div {
+        width: calc(33.333% - 2px);
+        border: 1px solid #ececec;
+        margin: 0 auto;
+        padding: 0;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .reviewContainer {
+        padding: 10px 0;
+    }
+}
+@media (max-width: 620px) {
+    .reviewFormTextArea {
+        width: 85%;
+    }
+}
+@media (max-width: 430px) {
+    .reviewFormTop {
+        padding: 8px 10px;
+    }
+    .reviewFormTop h2{
+        font-size: 17px;
+    }
+    .reviewFormTop h3{
+        font-size: 15px;
+    }
+    .reviewFormTitle h2{
+        margin: 0 10px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
