@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# wavle의 과제 프론트 엔드 과제
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ - 총 소요시간 5시간
+ - 사용 라이브러리 없음
+ - 네트리파이를 사용한 배포 완료
 
-## Available Scripts
+ <https://wavle-mypage.netlify.app/>
 
-In the project directory, you can run:
+## 필수 스팩
+1. react - 사용
+2. css - 사용
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 필수 작업 조건
+**1. 반응형으로 작업해주세요. - 미디어쿼리를 통한 작업 완료**
+ - 제공해드린 페이지는 반응형으로 작업되어있지않습니다.
+ - 데스크탑 환경에서 브라우저 크기에 따른 반응만 적용해주세요.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**2. 후기 작성 기능을 구현해주세요. - 첨부파일 미리보기를 띄우고 등록하기 누를시 콘솔 로그 찍기 완료**
+ - 후기 작성이 가능한 페이지로써,내용(필수), 첨부파일 3개를 받을 수 있습니다. 해당 input을 채우고 '등록하기' 버튼을 클릭시
+ console에 다음과 같이 출력 해주세요. "후기 데이터 - 내용 : {} 파일 개수 : {} 파일 원본 이름 : {}"
+ ex) "후기 데이터 - 내용 : '만나서 반가워요 :)' 파일 개수 : 3 파일 원본 이름 : ['fileName.png','fileName2.png','fileName3.png'] "
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 주의사항
+1. 작업을 위해 어떠한 패키지를 사용해도 괜찮습니다. 단, 사용시 해당 패키지의 사용 이유와 동작 방식을 여쭤볼 수도 있습니다.
+2. 파일은 이미지만 허용합니다.
+3. 재사용을 고려해주세요.
